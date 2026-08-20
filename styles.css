@@ -1,0 +1,79 @@
+header{
+  background: linear-gradient(
+    to left,
+    rgb(255, 204, 0),
+    rgb(255, 23, 23)
+  );
+list-style: none ;
+  display: flex;
+  align-items: center;
+    
+}
+ul{
+  list-style: none ;
+  display: flex;
+  margin: 30px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+ul li:hover{
+  color: rgb(174, 255, 0);
+  font-size: larger;
+  cursor: pointer;
+
+
+}
+ul li{
+  list-style: none ;
+  display: flex;
+  margin: 20px;
+  color: rgb(15, 16, 1);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-style: unset;
+}
+footer{
+   background: linear-gradient(
+    to right,
+    rgb(1, 242, 255),
+    rgb(255, 38, 0),rgb(345,76,23),rgb(171, 228, 216)
+   );
+}
+
+.imagenfondo{
+  background-image:  url(imagen.jpg);
+background-size: cover;
+background-position-x: center;
+background-repeat: no-repeat;
+height: 650px;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+}
+.fondooscuro{
+  background:rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  width: 50%;
+  border-radius: 25px;
+}
+h2{
+  color: beige;
+  font-size: large;
+}
+.boton{
+  color: rgb(14, 13, 13);
+  background-color: beige;
+  padding: 15px 90px;
+  font-size: medium;
+  border-radius: 30px;
+}
+.boton:hover{
+  color: rgb(22, 24, 24);
+  transform: scale(1.5);
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
